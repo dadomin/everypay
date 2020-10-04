@@ -105,7 +105,7 @@ class LoginController extends MasterController {
         }
 
         $_SESSION['user'] = $user;
-        DB::msgAndGo("{$user->nick}님 로그인되었습니다.", "/home");
+        DB::msgAndGo("{$user->nick}님 로그인되었습니다.", "/");
     }
 
     public function logout() 

@@ -1,18 +1,42 @@
+<section id="intro">
+	<div class="size">
+		<div class="intro-sub">
+			<h3>매일 같은</h3>
+			<h2>월세 카드결제 서비스</h2>
+			<div class="intro-circle">
+				<div><span>#임대인 동의 불필요</span></div>
+				<div><span>#서비스이용료 4%</span></div>
+				<div><span>#결제일 3영업일 뒤 입금</span></div>
+			</div>
+			<p>
+				연체/현금 걱정 없이 무이자 할부도 가능합니다.<br>
+				카드 혜택과, 임대인을 거치지 않고 소득공제 가능!<br>
+				업계 최저 수수료! 에브리페이에서 만나보세요.
+			</p>
+			<div class="intro-down">
+				<div><img src="/img/btn_googleplay.png" alt="btn_googleplay"></div>
+				<div><img src="/img/btn_appstore.png" alt="btn_appstore"></div>
+			</div>
+		</div>
+		<div>
+			<img src="/img/a.png" alt="phone">
+		</div>
+	</div>
+</section>
+
 <!-- 비쥬얼 부분 -->
 <section id="visual">
 	<div class="size">
 
 		<div class="home-div">
 			<div class="home-sub">
-				<h3 class="firsth">
-					Our creativity is <br>
-					your sucess
+				<h2>01</h2>
+				<h3>
+					에브리페이는 <span>월세/관리비/보증금</span> <br>
+					<span>신용카드 결제 서비스</span>입니다.
 				</h3>
-				<p>We break all boundaries if they happen on our way of project's development!</p>
-				<button class="goregi">CREATE ACCOUNT</button>
-				<a href="https://www.youtube.com/channel/UCYd8hz3a0UvlRNTMRFQO-_Q" class="video">
-					WATCH VIDEO <span><i class="fas fa-play"></i></span>
-				</a>
+				<p>임대차 계약 상의 <span>월세, 관리비, 보증금 결제<span></span></span>가 모두 가능합니다.</p>
+				<button class="goregi">자세히 보기</button>
 			</div>
 
 			<div class="home-img">	
@@ -22,21 +46,75 @@
 
 		<div class="home-div">
 			<div class="home-img">
-				<img src="./img/home2.png" alt="home2">
+				<img src="./img/bar2.png" alt="about1" class="about-bar">
+				<img src="./img/about1.png" alt="about1" class="about-img">
 			</div>
 
-			<div class="home-sub">
+			<div class="home-sub right-align">
+				<h2>02</h2>
 				<h3>
-					Creative challenges are <br>
-					our passion	
+					에브리페이는 임대인의<br>
+					<span>동의가 필요없습니다.</span>
 				</h3>
 				<p>
-					Our designers and developers work closely together to build a creative and <br>
-					positive working environment. Functionality is as important to us as <br>
-					aesthetics.
+					임대인이 서비스에 가입할 필요 없이<br>
+					세입자(이용자)가 <span>단독으로 결제 가능<span></span></span>합니다.
 				</p>
-				<button class="goregi">CREATE ACCOUNT</button>
-				<button class="login">LOG IN</button>
+				<button class="goregi">자세히 보기</button>
+			</div>
+		</div>
+
+		<div class="home-div">
+			<div class="home-sub">
+				<h2>03</h2>
+				<h3>
+					단비페이는 서비스 이용료가<br>
+					<span>업계최저 4%</span> 입니다.
+				</h3>
+				<p>
+					다양한 프로모션과 함께 꼼수없는 4%(부가세별도)로 이용하세요.
+					<span>(100만원 결제 시 총 104.4만원이 결제)<span></span></span>
+				</p>
+			</div>
+			<div class="home-img">
+				<img src="/img/b.png" alt="">
+			</div>
+		</div>
+
+		<div class="home-div">
+			<div class="home-img">
+				<img src="/img/c.png" alt="">
+			</div>
+			<div class="home-sub right-align">
+				<h2>04</h2>
+				<h3>
+					<span>무이자 할부</span>로 부담을 줄이거나,<br>
+					<span>포인트 혜택</span> 받으세요.
+				</h3>
+				<p>
+					<span>카드사별 2~6개월 신용카드 무이자 할부 결제<span></span></span>가 가능합니다.<br>
+					아니면 일시불 결제로 청구할인/포인트 혜택 받으세요
+				</p>
+				<button class="goregi">자세히 보기</button>
+			</div>
+		</div>
+
+		<div class="home-div">
+			<div class="home-sub">
+				<h2>05</h2>
+				<h3>
+					단비페이는 결제 시
+					<span>3영업일뒤 13시까지 입금</span>됩니다.
+				</h3>
+				<p>
+					결제일로부터 3일째 되는 날 자정전에 등록된 임대인 계좌로 입금됩니다. <br>
+					<span>오늘 결제 시 2020/10/07/수 입금<span></span> (영업일기준)</span> <br>
+					입금될 때 고객님 휴대폰으로 <span>입금알림 문자가 발송</span>되며, <br>
+					<span>앱에서 세부내역을 실시간으로 조회 가능</span>합니다.
+				</p>
+			</div>
+			<div class="home-img">
+				<img src="/img/d.png" alt="">
 			</div>
 		</div>
 	</div>
@@ -44,300 +122,21 @@
 	<div class="home-bar"></div>
 </section>
 
-<!-- 메인 첫번째 -->
-<section id="main-first">
-	<div class="size">
-		<p>
-			We provide a wide range <br>
-			of creative services
-		</p>
-
-		<div class="main-boxes">
-
-			<div class="box">
-				<div class="box-icon">
-					<i class="fas fa-pencil-alt"></i>
-				</div>
-
-				<h3>Web Design & Branding</h3>
-				<p>
-					A great brand combines design and <br>
-					messanging to evoke emotion in your <br>
-					customers and drive strategy.
-				</p>
-				<button class="gologin">
-					GOING TO LOGIN
-					<i class="fas fa-long-arrow-alt-right"></i>
-				</button>
-			</div>
-
-			<div class="box">
-				<div class="box-icon">
-					<i class="fas fa-code"></i>
-				</div>
-
-				<h3>Graphic Design</h3>
-				<p>
-					Rich experience plus unlimited imagination <br>
-					create our successful service discovered by <br>
-					clients.
-				</p>
-				<button class="gologin">
-					GOING TO LOGIN
-					<i class="fas fa-long-arrow-alt-right"></i>
-				</button>
-			</div>
-
-			<div class="box">
-				<div class="box-icon">
-					<i class="fas fa-cog"></i>
-				</div>
-
-				<h3>Video Production</h3>
-				<p>
-					Creating and handling professional video is <br>
-					our strong point. It plays a major role in your <br>
-					digital business strategy.
-				</p>
-				<button class="gologin">
-					GOING TO LOGIN
-					<i class="fas fa-long-arrow-alt-right"></i>
-				</button>
-			</div>
-
-			<div class="box">
-				<div class="box-icon">
-					<i class="fas fa-meteor"></i>
-				</div>
-
-				<h3>SEO</h3>
-				<p>
-					We provide everything your site needs to <br>
-					perform at its highest capabillities on the <br>
-					major search engines.
-				</p>
-				<button class="gologin">
-					GOING TO LOGIN
-					<i class="fas fa-long-arrow-alt-right"></i>
-				</button>
-			</div>
-
-			<div class="box">
-				<div class="box-icon">
-					<i class="fab fa-digital-ocean"></i>
-				</div>
-
-				<h3>Digital Marketing</h3>
-				<p>
-					With digital marketing, your business can <br>
-					expand into new areas and achiever <br>
-					tremendous accomplishments.			</p>
-				<button class="gologin">
-					GOING TO LOGIN
-					<i class="fas fa-long-arrow-alt-right"></i>
-				</button>
-			</div>
-
-			<div class="box">
-				<div class="box-icon">
-					<i class="far fa-comments"></i>
-				</div>
-
-				<h3>Infographics</h3>
-				<p>
-					Turn your data into captivating artwork that <br>
-					will keep your audience engaged. Our team <br>
-					can help you with it.
-				</p>
-				<button class="gologin">
-					GOING TO LOGIN
-					<i class="fas fa-long-arrow-alt-right"></i>
-				</button>
-			</div>
-
-		</div>
-	</div>
-
-	<img src="./img/bar1.png" alt="bar1">
-</section>
-
-<!-- 메인 두번째 -->
-<section id="main-second">
-	<div class="size">
-		<div class="home-div">
-			<div class="home-sub">
-				<h3>
-					If you have any <br>
-					questions, please <br>
-					contact us
-				</h3>
-				<p>
-					Our professional support team try to do their best to provide you with high- <br>
-					quality consultations concerning any questions about our services.
-				</p>
-				<button class="goregi">CREATE ACCOUNT</button>
-				<button class="login">LOG IN</button>
-			</div>
-			<div class="home-img">
-				<img src="./img/bar2.png" alt="about-bar2" class="about-bar">
-				<img src="./img/about1.png" alt="about" class="about-img">
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- 메인 세번째 -->
-<section id="main-third">
-	<div class="size">
-		<div class="third-div">
-			<div class="third-boxes">
-				<div class="third-box">
-					<h3>1880+</h3>
-					<p>
-						Projects completed by our team <br>
-						of web designers and developers
-					</p>
-				</div>
-				<div class="third-box">
-					<h3>56</h3>
-					<p>
-						Experts in web design, branding, <br>
-						and digital marketing solutions.
-					</p>
-				</div>
-				<div class="third-box">
-					<h3>2000+</h3>
-					<p>
-						Customers who were satisfied <br>
-						with our work.
-					</p>
-				</div>
-				<div class="third-box">
-					<h3>100%</h3>
-					<p>
-						Positive reviews sent by our first- <br>
-						time and regular customers.
-					</p>
-				</div>
-			</div>
-
-			<div class="third-sub">
-				<h3>
-					Why choose our <br>
-					company for your <br>
-					projects?
-				</h3>
-				<p>
-					We are a team of professional and enthusiastic people, who like what <br>
-					they do and are always in the process of growing and improving their <br>
-					skills.
-				</p>
-				<button>GET A QUOTE</button>
-			</div>
-		</div>
-	</div>
-
-	<div class="third-bars bar-one"></div>
-	<div class="third-bars bar-two"></div>
-	<div class="third-bars bar-three"></div>
-</section>
-
-<!-- 회원가입 -->
-<section id="main-register">
-	<div class="size">
-		<div class="home-div">
-			<div class="home-img">
-				<img src="./img/register.png" alt="register">
-			</div>
-
-			<div class="home-img">
-				<form action="/register" method="POST" class="home-register"  enctype="multipart/form-data">
-					<h3>
-						Get in touch with <br>
-						our team
-					</h3>
-					
-					<input type="text" placeholder="YOUR NAME" name="name">
-					<input type="text" placeholder="ID" name="id">
-					<input type="password" placeholder="PASSWORD" name="pass">
-					<input type="password" placeholder="PASSWORD CONFIRM" name="cpass">
-
-					<input type="date" name="birth">
-
-					<select name="sex" id="">
-						<option value="0">WOMAN</option>
-						<option value="1">MAN</option>
-					</select>
-
-					<div>
-						<input type="text" placeholder="프로필 사진 선택" disabled="disabled" class="file-show">
-						<label for="file">업로드</label>
-						<input type="file" name="file" id="file">
-
-					</div>
-					
-					<button>DONE</button>
-				</form>
-			</div>
-			
-		</div>
-	</div>
-
-	<img src="./img/bar1.png" alt="register-bar" class="register-bar">
-</section>
-
-<!-- 파일 업로드 이름 바꿔주기 -->
-<script>
-	$("#file").on("change", (e)=>{	
-		var filename = $(e.target).val().split('/').pop().split('\\').pop(); // 파일명만 추출 
-		// 추출한 파일명 삽입
-		$(".file-show").val(filename); 
-	});
-</script>
-
 <!-- 로그인 -->
-<section id="main-login">
-	<p>Subscribe to our news <br> and regular updates</p>
-	<form action="/login" method="POST" class="home-login">
-		<input type="text" placeholder="YOUR ID" name="id">
-		<input type="password" placeholder="PASSWORD" name="pass">
-		<button>LOGIN</button>
-	</form>
+<!--  안심하세요 !-->
+<section id="main-bottom">
+	<h3>
+		안심하세요<span>!</span> <br> 
+		에브리페이 정산을 <span class="main-bottom-payapp"></span>에서 대행합니다.
+	</h3>
+	<p>
+		12만 가맹점, 누적결제금액 4조원, 하루에 30억원 이상 결제되는 페이앱에서 단비페이 정산을 대행합니다. <br>
+		결제금액이 임대인 계좌로 입금되지 않는 사고에 대해 1도 걱정마세요!
+	</p>
+	<p class="bottom-e"><전자지급결제대행업 등록번호 02-004-00096></p>
+	<p class="bottom-e"><결제대금예치업 등록번호 02-006-00035></p>
+	<button>자세히보기</button>
+
+	<img src="/img/logo.png" alt="" class="bottom-logo">
+	<img src="/img/bar2.png" alt="" class="bottom-bar">
 </section>			
-
-<!-- 스크롤탑 설정 -->
-<script>
-	// 홈 이동
-	$(".home").on("click", ()=>{
-		$('html, body').animate({scrollTop: 0}, 1000, 'swing');	
-	});
-	//about 이동
-	$(".about").on("click", ()=>{
-		let top = document.querySelector("#main-first").offsetTop - 70;
-		$('html, body').animate({scrollTop: top}, 1000, 'swing');	
-	});
-	//services 이동
-	$(".services").on("click", ()=>{
-		let top = document.querySelector("#main-second").offsetTop - 70;
-		$('html, body').animate({scrollTop: top}, 1000, 'swing');	
-	});//pages 이동
-	$(".pages").on("click", ()=>{
-		let top = document.querySelector("#main-third").offsetTop - 70;
-		$('html, body').animate({scrollTop: top}, 1000, 'swing');	
-	});
-	// 회원가입 이동
-	$(".register").on("click", ()=>{goregi()});
-	$(".goregi").on("click", ()=>{goregi()});
-	// 로그인 이동
-	$(".login").on("click", ()=>{gologin()});
-	$(".gologin").on("click", ()=>{gologin()});
-
-	function goregi() {
-		let top = document.querySelector("#main-register").offsetTop - 70;
-		$('html, body').animate({scrollTop: top}, 1000, 'swing');
-	}
-	function gologin() {
-		let top = document.querySelector("#main-login").offsetTop - 70;
-		$('html, body').animate({scrollTop: top}, 1000, 'swing');	
-	}
-</script>
