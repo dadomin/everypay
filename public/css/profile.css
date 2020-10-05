@@ -130,7 +130,9 @@
     display: block;
     margin: 5px 0;
 }
-.my-profile-sub > div > span,p,img {
+.my-profile-sub > div > span,
+.my-profile-sub > div > p,
+.my-profile-sub > div > img {
     float: left;
     color: #333;
     font-size: 13px;

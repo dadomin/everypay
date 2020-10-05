@@ -99,6 +99,9 @@
                 <img src="/img/circle2.png" alt="" class="list-circle">
             </div>
         </div>
-        <button><a href="/cs">자주묻는질문 바로가기 </a></button>
+        <div class="guide-button">
+            <button><a href="/cs">자주묻는질문 바로가기 </a></button>
+        </div>
+
     </div>
 </section>
