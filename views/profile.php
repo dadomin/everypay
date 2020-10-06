@@ -82,8 +82,6 @@
             <form action="/profilechange" method="POST" class="up change-up">
                 <h3>프로필 수정</h3>
                 <img src="<?= $user->img ?>" alt="img">
-                <label for="change-file" class="change-profile-img"><i class="fas fa-camera"></i></label>
-                <input type="file" id="change-file">
                 <input type="text" class="change-profile-name" name="nick">
                 <button>확인</button>
             </form>
