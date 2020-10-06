@@ -567,3 +567,137 @@ span.on-span > span {
 	right: 250px;
 	width: 20%;
 }
+#main-preview {
+	width: 1120px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 80px;
+}
+#main-preview > h3 {
+	font-size: 55px;
+	font-weight: lighter;
+}
+#preview-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#preview-button > button {
+	width: 60px;
+	height: 60px;
+	background-color: #fff;
+	border: 1px solid #f5f5f5;
+	border-radius: 50%;
+	cursor: pointer;
+	margin: 0 6px;
+	color: #8a8a8a;
+	font-size: 21px;
+}
+
+.preview-box {
+	width: 370px;
+	height: 700px;
+	position: relative;
+	/* left: -200%; */
+}
+.preview-box > div {
+	width: 600%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.preview-box > div > img {
+	float: left;
+}
+
+#login-form {
+	width: 100%;
+	padding: 100px 0;
+	background-color: #f1fcf7;
+}
+
+#login-form > .login-size  {
+	width: 500px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+#login-form > .login-size > * {
+	flex: 1;
+	padding: 30px 20px;
+	text-align: center;
+}
+
+.login-div {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	/* border: 1px solid #bef5db; */
+	box-shadow: 0 4px 44px rgba(17,29,48,.06);
+	/* border:1px solid #e1f5eb; */
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	padding: 40px 50px;
+	/* align-items: center; */
+}
+.login-div > img {
+	height: 100px;
+	margin: 0 auto;
+}
+.login-div > span {
+	text-align: left;
+	margin-left: 12px;
+	color: #8a8a8a;
+}
+.login-div > input {
+	width: 100%;
+	height: 46px;
+	margin: 6px 0;
+	color: #adb6c7;
+	border: 1px solid #dcdfe5;
+	background-color: #fff;
+	border-radius: 4px;
+	outline: none;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+}
+.login-buttons {
+	width: 100%;
+	/* height: 35px; */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.login-buttons > button {
+	width: 50%;
+	/* padding: 12px 20px; */
+	/* margin: 10px 6px; */
+	cursor: pointer;
+	/* border-radius: 6px; */
+}
+.makeregi {
+	background-color: #2570ff;
+	box-shadow: 0 8px 32px rgba(37,112,255,.46);
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-right: 16px;
+	transition: 0.25s;
+}
+.makeregi > a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 11px 20px;
+}
+.makeregi:hover {
+	background-color: #1fde82;
+	box-shadow: 0 8px 32px rgba(31,222,130,.46);
+}

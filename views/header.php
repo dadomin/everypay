@@ -40,13 +40,13 @@
 		<div class="size">
 
 			<!-- 로고 -->
-			<a href="/home">
+			<a href="/">
 				<img src="./img/logo.png" alt="logo">
 			</a>
 
 			<!-- 검색창 -->
 			<div class="search-box">
-				<input type="text" placeholder="밴드, 페이지, 게시글 검색">
+				<input type="text" placeholder="키워드, 게시글 검색">
 				<button><i class="fas fa-search"></i></button>
 			</div>
 
@@ -62,6 +62,15 @@
 						<li><a href="/profile">내 정보</a></li>
 						<li><a href="/logout">로그아웃</a></li>
 					</ul>
+
+				</div>
+				
+				<div class="right-menu">
+					<ul id="main-menu">
+						<li><a href="/guide">이용안내</a><span></span></li>
+						<li><a href="/cs">고객센터</a><span></span></li>
+					</ul>
+					
 				</div>
 			</div>
 
@@ -103,7 +112,7 @@
 					<li><a href="/guide">이용안내</a><span></span></li>
 					<li><a href="/cs">고객센터</a><span></span></li>
 				</ul>
-				<button class="login">LOGIN</button>
+				<button class="login"><a href="/login">LOGIN</a></button>
 			</div>
 		</div>
 	</header>

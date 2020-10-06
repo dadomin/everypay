@@ -122,8 +122,26 @@
 	<div class="home-bar"></div>
 </section>
 
+<section id="main-preview">
+		<h3>에브리페이 <span class="on-span">미리보기 <span></span></span></h3>
+		<ul id="preview-button">
+			<button id="preview-left"><i class="fas fa-chevron-left"></i></button>
+			<button id="preview-right"><i class="fas fa-chevron-right"></i></button>
+		</ul>
+
+		<div class="preview-box">
+			<div>
+				<img src="/img/danbi1.png" alt="">
+				<img src="/img/danbi2.png" alt="">
+				<img src="/img/danbi3.png" alt="">
+				<img src="/img/danbi4.png" alt="">
+				<img src="/img/danbi5.png" alt="">
+				<img src="/img/danbi6.png" alt="">
+			</div>
+		</div>
+</section>
+
 <!-- 로그인 -->
-<!--  안심하세요 !-->
 <section id="main-bottom">
 	<h3>
 		안심하세요<span>!</span> <br> 
@@ -140,3 +158,31 @@
 	<img src="/img/logo.png" alt="" class="bottom-logo">
 	<img src="/img/bar2.png" alt="" class="bottom-bar">
 </section>			
+
+<script>
+	$("#preview-right").on("click", (e)=>{
+		let a = parseInt($(".preview-box").css("left")) ;
+		if(a % 370 != 0){
+			return;
+		}
+		if(a <= -1110) {
+			return;
+		}else {
+			a -= 370;
+			$(".preview-box").animate({"left" : `${a}px`});
+		}
+	});
+
+	$("#preview-left").on("click", ()=>{
+		let a = parseInt($(".preview-box").css("left")) ;
+		if(a % 370 != 0){
+			return;
+		}
+		if(a >= 0) {
+			return;
+		}else {
+			a += 370;
+			$(".preview-box").animate({"left" : `${a}px`});
+		}
+	});
+</script>

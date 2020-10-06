@@ -5,8 +5,13 @@ namespace Damin\Controller;
 use Damin\DB;
 
 class LoginController extends MasterController {
-    
+
     public function register()
+    {
+        $this->render("register", []);
+    }
+    
+    public function regicheck()
     {   
         // 로그인 되어있는지 체크
         if(isset($_SESSION['user'])){
@@ -79,7 +84,7 @@ class LoginController extends MasterController {
 
     }
     
-    public function login()
+    public function logcheck()
     {
         // 로그인 되어있는지 체크
         if(isset($_SESSION['user'])){
@@ -106,6 +111,11 @@ class LoginController extends MasterController {
 
         $_SESSION['user'] = $user;
         DB::msgAndGo("{$user->nick}님 로그인되었습니다.", "/");
+    }
+
+    public function login()
+    {
+        $this->render("login", []);
     }
 
     public function logout() 

@@ -12,7 +12,13 @@ class MainController extends MasterController {
         // if(isset($_SESSION['user'])){
         //     DB::msgAndBack("로그아웃 후 이용해주시기 바랍니다.");
         //     exit;
-        // }
-		$this->render("main", []);
+		// }
+		if(isset($_SESSION['user'])){
+			$user = $_SESSION['user'];
+        }else {
+			$user = null;
+		}
+
+        $this->render("main", ["user" => $user]);
 	}
 }
